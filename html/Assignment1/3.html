@@ -1,0 +1,79 @@
+<!-- 3.Design a basic blog page layout with the following:
+A header section with the blog title.
+A main section with blog posts, each inside an <article> with title, date, and content.
+A sidebar with links to recent posts.
+A footer with copyright information. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img1{
+            position: relative;  
+             margin-left: 0px;    
+             width: 400px;
+             /* height: 100px;        */
+        }
+        .img2{
+                position: relative;  
+             margin-left: 50px;     
+        }
+        #links{
+        
+          position: relative;
+           float: right;
+           top:300px;
+           margin-right:900px;
+           /* background-color: red; */
+           height: 260px;
+           width: 320px;
+           border: 1px solid ;
+           margin-right: 550px;
+           overflow: scroll;
+         
+        }
+        a{
+       
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+           
+             
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Blog Title</h1>
+    </header>
+    <main>
+        <img src="./img4.jpg" alt="n" id="img1" width="600px" height="600px" style="align-items: center;">
+
+        
+        <div id="links"><h1 style="text-align: center;">New Blogs</h1>
+           <ol>
+            <li> <a href="./1.html" target="_blank"> <img src="./img1.jpeg" alt="" height="100px" width="100px" class="img2" > </a> 
+            </li>
+
+            <li> <a href="./2.html" target="_blank"><img src="./img2.jpeg" alt="" height="100px" width="100px" class="img2" ></a></li>
+
+            <li>
+                <a href="./1.html" target="_blank"><img src="./img3.jpeg" alt="" height="100px" width="100px" class="img2" ></a>
+            </li>
+           </ul>
+        </div>
+
+        <h1>Tilte of article</h1>
+        <span>05-11-2024</span>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic voluptate perferendis quidem accusamus incidunt natus nesciunt ullam assumenda accusantium nobis sapiente necessitatibus maxime sunt architecto quibusdam, consequatur aliquid laborum quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ea quidem accusamus. Dignissimos sed ullam iusto saepe impedit exercitationem, perspiciatis, consectetur accusantium repellat unde voluptates minus praesentium possimus modi similique vel soluta. Dolor tempora ipsum aut, iure reiciendis animi excepturi illum consectetur optio laborum nemo modi esse nihil, ea sed, voluptatem cumque id architecto nisi magnam facilis maiores! Esse facere sit eveniet repellat fuga similique enim ab, facilis iure, magni provident, asperiores excepturi obcaecati debitis nihil rem voluptatem quisquam reprehenderit? Cupiditate minus suscipit et autem quam quia, adipisci blanditiis nam quisquam provident similique voluptatem, velit, veniam dolore id? Deleniti, tempora.</p>
+    </main>
+
+    <footer>
+        &copy;<span> copyright information.</span>
+    </footer>
+
+</body>
+</html>
