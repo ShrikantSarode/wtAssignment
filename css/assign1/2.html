@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 50px;
+            border: 1px solid;
+            background-color: black;
+        }
+        #head{
+           
+            height: 30px;
+            background-color: grey;
+            border: 1px solid;
+            color: black;
+            padding-left: 65px;
+            
+            
+        }
+        .tanchor{
+            float: right;
+            margin-right: 50px;
+            color: aliceblue;
+             text-decoration: underline dotted;
+        }
+        .hanchor{
+            margin-right: 15px;
+            color: black;
+            text-decoration: underline dotted;
+        }
+        #logo{
+            margin-left: 10px;
+            margin-top: 12px;
+            color: aliceblue;
+        }
+
+        #photo{
+            height: 200px;
+            width: 100%;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #pp{
+              height: 115px;
+            width: 115px;
+            border: 1px solid;
+            padding: 7px;
+         
+        }
+        #photo1{
+              height: 100px;
+            width: 100px;
+            background-position: center;
+            background-size: contain;
+        }
+
+        #name{
+            margin-top: 9px;
+            margin-left: 19px;
+        }
+        #below{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        #con1{
+           
+            height: 200px;
+            width: 70%;
+            border: 1px solid;
+        }
+          #con2{
+            height: 300px;
+            width: 70%;
+            border: 1px solid;
+        }
+         #con3{
+            height: 300px;
+            width: 70%;
+            border: 1px solid;
+        }
+        #fp{
+            display: flex;
+            justify-content: center;
+        }
+        footer{
+              height: 80px;
+            width: 70%;
+            border: 1px solid;
+            background-color: black;
+            margin-bottom: 100px;
+        }
+        #fspan{
+            color: aliceblue;
+        }
+        .fanchor{
+            color: grey;
+        }
+        #con11{
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            
+        }
+        #child1{
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+       #d1{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+       }
+       button{
+        padding: 5px;
+        width: 57px;
+        height: 25px;
+        margin-top: 5px;
+       }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+        <a class="tanchor" href="">Inventory</a>
+        <a class="tanchor" href="">Catalog</a>
+        <a class="tanchor" href="">Home</a>
+      <h1 id="logo">!aCRM</h1>
+    </nav>
+
+    <div id="head">
+      <a class="hanchor" href="">Contacts</a>
+      <a class="hanchor" href="">Orders</a>
+      <a class="hanchor" href="">Calendar</a>
+      <a class="hanchor" href="">Tasks</a>
+      <a class="hanchor" href="">Evaluation</a>
+      <a class="hanchor" href="">Copies</a>
+    </div>
+
+  <div id="photo">
+
+      <div id="pp">
+      <img id="photo1" src="./pp.jpg" alt="" />
+      <p id="name">Jack Smith</p>
+
+    </div>
+  </div>
+
+  <div id="below">
+      <div id="con1">
+        <p id="con11">Personal Details</p>
+        
+        <div id="child1">
+            <i>Address:</i><span>1 Microsoft Way</span>
+        <div><i>City:</i>Redmond</div>
+        <div><i>Region:</i>WA</div>
+        <div><i>Country:</i>USA</div>
+          <div><i>Postal:</i>98052-8300</div>
+</div>
+<div id="d1">
+    <div id="down">
+<button>Edit</button>
+<button>File</button>
+</div>
+</div>
+        </div>
+    </div>
+      <div id="below">
+    <div id="con2">
+
+      <div id="ch1"></div>
+      <div id="ch2"></div>
+      <div id="ch3"></div>
+
+    </div>
+</div>
+  <div id="below">
+    <div id="con3">
+
+      <div id="c1"></div>
+      <div id="c2"></div>
+      <div id="c3"></div>
+
+    </div>
+</div>
+    <div id="graph">
+        <img src="" alt="">
+    </div>
+  
+ <div id="fp">
+    <footer>
+       <div id="fchild">
+         <a class="fanchor" href="">Home</a>|<a class="fanchor" href="">Catlog</a>|<a class="fanchor" href="">Inventory</a>
+       </div>
+<br>
+     <div id="fspan">
+          <span>Copyright</span> <span>&copy;</span><span> 2013 Not a Real CRM</span>
+     </div> 
+
+    </footer>
+    </div>
+  </body>
+</html>
