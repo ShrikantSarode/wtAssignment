@@ -1,0 +1,11 @@
+body {
+  background: pink;
+}
+
+h1 {
+  color: cadetblue;
+  text-shadow: 2px 3px 5px black;
+}
+p {
+  color: orange;
+}
